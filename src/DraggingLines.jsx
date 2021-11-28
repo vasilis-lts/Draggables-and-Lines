@@ -80,7 +80,7 @@ function DraggingLines() {
 
   return (
     <div className="DraggingLines" style={{ height: "100%" }}>
-      <h1 style={{ margin: 0, textAlign: "center" }}>Line Connected Draggables</h1>
+      <h1 style={{ margin: 0, textAlign: "center" }}>Draggables and Lines</h1>
       <header>
         <button onClick={() => createBlock()} disabled={Blocks.length > 1}>Create Blocks (max: 2)</button>
         {Lines.length ?
